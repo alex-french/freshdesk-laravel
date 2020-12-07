@@ -38,7 +38,7 @@
         },
 	"laravel": {
 		"providers" : [
-			"Mpclarkson\\Laravel\\Freshdesk\\FreshdeskServiceProvider::class"
+			"Mpclarkson\\Laravel\\Freshdesk\\FreshdeskServiceProvider"
 		]
 	}
     }
