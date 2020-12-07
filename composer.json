@@ -1,7 +1,7 @@
 {
-    "name": "zenichanin/freshdesk-laravel",
+    "name": "alex-french/freshdesk-laravel",
     "description": "Laravel package for the Freshdesk API (v2)",
-    "homepage": "https://github.com/zenichanin/freshdesk-laravel",
+    "homepage": "https://github.com/alex-french/freshdesk-laravel",
     "keywords": ["freshdesk", "customer service", "support", "help desk", "api", "laravel"],
     "type": "laravel-package",
     "require": {
@@ -35,6 +35,11 @@
     "extra" : {
         "branch-alias" : {
             "dev-master" : "1-dev"
-        }
+        },
+	"laravel": {
+		"providers" : [
+			"Mpclarkson\Laravel\Freshdesk\FreshdeskServiceProvider::class"
+		]
+	}
     }
 }
